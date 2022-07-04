@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1 align="center">Admin Login</h1>
+<form action="/dashboard" method="POST">
+	<div class="col-lg-5 my-4 container" >
+  <div class="form-group row">
+    <label for="uname" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="uname" placeholder="uname" name="uname">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="password" class="col-sm-2 col-form-label">password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="password" placeholder="password" name="password">
+    </div>
+  </div>
+  </div>
+  <div align="center">
+  <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+{% endblock %}

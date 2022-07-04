@@ -1,0 +1,15 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/shusite",
+    "prod_uri": "mysql://root:@localhost/shusite",
+    "gmail-user":"baraskarshubhamg@gmail.com",
+    "gmail-password":"ocfebgtuoeiyxkih",
+    "about_title": "This is about page",
+    "no_of_posts": 2,
+    "admin_user":"harry",
+    "admin_password": "subscribenow",
+    "upload_location": "C:\\Users\\om\\PycharmProjects\\FlaskssProjects\\static"
+  }
+}
